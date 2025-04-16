@@ -1,17 +1,22 @@
-Event Ticket Reservation System
+# Event Ticket Reservation System
 
 Overview
 This project is a Event Ticket Reservation System built using Node.js, Express, and MongoDB. It allows users to reserve tickets based on availability, cancel reservation, and retrieve reservation details. Admins can manage reservation with authentication.
 
 Features
+
 User Authentication: JWT-based authentication for secure access.
+
 Ticket Reservation: users can reserve tickets based on availability.
+
 View Reservation: Users can view their Reservation.
+
 Cancel Reservation: Users can cancel their Reservation.
+
 Admin Access: Only admins can view all Reservation.
 
-
 Technologies Used
+
 Backend: Node.js, Express.js
 Database: MongoDB with Mongoose
 Authentication: JWT (JSON Web Token)
@@ -40,7 +45,6 @@ JWT_SECRET=your_secret_key
 
 Start the server:
 npm start
-
 
 API Endpoints
 
